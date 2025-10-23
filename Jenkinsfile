@@ -47,7 +47,7 @@ pipeline {
                     rmdir /S /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\222"
                 )
 
-                copy "BackEnd\\travel-bucketlist-backend\\target\\bb1.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\222.war"
+                copy "BackEnd\\travel-bucketlist-backend\\target\\222.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\222.war"
                 """
             }
         }
